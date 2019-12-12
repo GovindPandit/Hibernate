@@ -1,0 +1,62 @@
+Steps to create hibernate project in eclipse:
+
+1)Create new maven project.
+2)Select location of directory where you want to save your project.
+3)Select archetype as quickstart.
+
+	Archetype - Skeleton or Structure of your project.
+
+4)Enter group id and artifact id.
+5)After creation of project goto pom.xml file 
+	
+	POM - Project Object Model
+
+6)Copy dependency of hibernate from mvnrepository website.
+7)Create resources folder in your project.
+	
+	Right click on your project
+	Properties
+	Java Build Path
+	source
+	Click on Add Folder
+	Click on Main
+	Add new folder
+	Enter folder name as resources
+	Click apply and close
+ 
+7)Goto following github link and copy hibernate.cfg.xml file in resources folder.
+
+	hibernate.cfg.xml - Hibernate Configuration File.
+	https://github.com/GovindPandit/Hibernate/blob/master/src/main/resources/hibernate.cfg.xml
+
+9)Copy Dependency of mysql 5.0 from mvnrepository and paste in pom.xml file.
+
+
+MySQL Installation Steps:
+
+1)Goto following website and download software.
+
+	https://docs.google.com/uc?export=download&id=0B-9Vl9hXQBBhb0ZBdDdHTUhKVW8	
+
+2)Extract zip file.
+3)Click on exe file
+4)Skip installation
+5)Enter your username, password and hit enter.
+6)Open MySQL.
+7)Enter your password.
+8)Create database and table.
+
+
+Steps to connect MySQL with Eclipse:
+
+1)Goto Data Source Explorer tab.
+2)Right click on Database connection folder.
+3)Click new. 
+4)Select my sql.
+5)Click on plus option from right upper corner.
+6)Click on Jar list.
+7)Click add jar.
+8)Goto .m2 folder and select jar.
+9)Enter database name, username, password and hit ok.
+
+
